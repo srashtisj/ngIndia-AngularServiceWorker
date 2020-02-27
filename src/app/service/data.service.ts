@@ -8,6 +8,6 @@ export class DataService {
   constructor(public httpClient: HttpClient) { }
 
   public getDetails() {
-    return this.httpClient.get('http://dummy.restapiexample.com/api/v1/employees');
+    return this.httpClient.get('https://dummy.restapiexample.com/api/v1/employees');
   }
 }
